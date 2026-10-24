@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Консольний застосунок: корінь композиції (IoC), меню та демонстраційні дані. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>PeopleDb.App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PeopleDb.Core\PeopleDb.Core.csproj" />
+    <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
+  </ItemGroup>
+
+</Project>

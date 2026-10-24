@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Предметна область: сутності, вміння, специфікації, відображення на файл і репозиторій. Без консолі. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <!-- Неявні using вимкнено свідомо: System.Collections.Generic (колекції) заборонені завданням. -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>PeopleDb.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
+  </ItemGroup>
+
+</Project>
