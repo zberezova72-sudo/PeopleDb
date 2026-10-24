@@ -1,5 +1,6 @@
 # Діаграма класів (Mermaid)
 
+GitHub відображає цю діаграму автоматично.
 
 ```mermaid
 classDiagram
