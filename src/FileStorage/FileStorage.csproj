@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Бібліотека виключно для читання/запису файлу: без бізнес-логіки та без консолі. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <!-- Неявні using вимкнено свідомо: System.Collections.Generic (колекції) заборонені завданням. -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>FileStorage</RootNamespace>
+  </PropertyGroup>
+
+</Project>
