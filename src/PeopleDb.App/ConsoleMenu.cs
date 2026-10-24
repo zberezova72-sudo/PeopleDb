@@ -67,7 +67,7 @@ public sealed class ConsoleMenu
     {
         _output.WriteLine();
         _output.WriteLine("=========== БАЗА ДАНИХ ОСІБ ===========");
-        _output.WriteLine("1. Завантажити демонстраційні дані");
+        _output.WriteLine("1. Завантажити дані");
         _output.WriteLine("2. Додати N осіб");
         _output.WriteLine("3. Показати всіх осіб (читання з файлу)");
         _output.WriteLine("4. Пошук за прізвищем");
